@@ -1,0 +1,1 @@
+emcc hello.c -o hello.js -s WASM=1 -s EXTRA_EXPORTED_RUNTIME_METHODS='["cwrap"]'
